@@ -1,6 +1,6 @@
 # go-math-app
 
-MathApp
+.
 |-- Dockerfile
 |-- README.md
 `-- src
@@ -13,6 +13,7 @@ MathApp
     `-- views
         |-- invalid-route.html
         `-- result.html
+
 
 -> main.go: The main application file is main.go, located at the src directory. This file contains all the functionality of the app
 
@@ -30,4 +31,4 @@ http://myapp-load-balancer-1345939904.ap-south-1.elb.amazonaws.com/sum/<integer-
 
 http://myapp-load-balancer-1345939904.ap-south-1.elb.amazonaws.com/product/<integer-1/integer-2
 
-### Note: It will thorw `Invalid Operation` as the output if we don't use the appropriate endpoints to access the app.
+### Note: It will throw `Invalid Operation` as the output if we don't use the appropriate endpoints to access the app.
