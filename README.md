@@ -1,5 +1,6 @@
 # go-math-app
 
+```shell
 .
 |-- Dockerfile
 |-- README.md
@@ -13,6 +14,9 @@
     `-- views
         |-- invalid-route.html
         `-- result.html
+        
+        
+```
 
 
 -> main.go: The main application file is main.go, located at the src directory. This file contains all the functionality of the app
